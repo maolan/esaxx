@@ -2,7 +2,7 @@
 name = "esaxx-rs"
 version = "0.1.10"
 authors = ["Nicolas Patry <patry.nicolas@protonmail.com>"]
-edition = "2018"
+edition = "2024"
 description = "Wrapping around sentencepiece's esaxxx library."
 license = "Apache-2.0"
 homepage = "https://github.com/Narsil/esaxx-rs"

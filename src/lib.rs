@@ -45,7 +45,7 @@ use esa::esaxx_rs;
 use types::SuffixError;
 
 #[cfg(feature = "cc")]
-extern "C" {
+unsafe extern "C" {
     fn esaxx_int32(
         // This is char32
         T: *const u32,
